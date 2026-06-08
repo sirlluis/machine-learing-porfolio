@@ -17,6 +17,7 @@ This repository contains a comprehensive collection of projects showcasing my ab
 - 🔍 **Unsupervised Learning** - Clustering (K-Means, DBSCAN, Agglomerative) and dimensionality reduction (PCA)
 - 🧠 **Deep Learning** - Neural networks and computer vision applications
 - ⚛️ **Physics + ML** - Applying machine learning techniques to physics-related problems
+- 🗄️ **SQL & Database Analysis** - Data extraction, transformation, and insights from relational databases
 
 Each project is documented with its own `README.md`, explaining the problem, methodology, and results.
 
@@ -24,7 +25,34 @@ Each project is documented with its own `README.md`, explaining the problem, met
 
 ## 🚀 Featured Projects
 
-### 1. **Coffee Sales Prediction** ☕📊
+### 1. **SQL Superstore Analysis** 🗄️📊
+**Directory:** `sql_superstore/`
+
+Database analysis project showcasing SQL proficiency with comprehensive queries on a retail superstore dataset containing multiple years of sales data.
+
+**Key Objectives:**
+- Extract and analyze sales data using advanced SQL queries
+- Perform multi-table joins to combine customer, order, and product information
+- Generate insights on sales trends, regional performance, and product categories
+- Calculate key metrics including revenue, profit, and customer behavior patterns
+
+**Methodology:**
+- Schema design with multiple related tables (Orders, Customers, Products, Shipping)
+- Complex queries with GROUP BY, subqueries, and window functions
+- Data aggregation by region, category, and time periods
+- Performance optimization for large datasets
+
+**Key Findings:**
+- Regional sales distribution and profit margins
+- Top performing product categories and segments
+- Customer lifetime value and purchase patterns
+- Seasonal trends and shipping method analysis
+
+**Technologies:** SQL, MySQL/PostgreSQL, Database Design, Query Optimization
+
+---
+
+### 2. **Coffee Sales Prediction** ☕📊
 **Directory:** `coffee_sales/`
 
 A time series forecasting project analyzing daily coffee vending machine sales data spanning March 2024 - March 2025.
@@ -48,7 +76,7 @@ A time series forecasting project analyzing daily coffee vending machine sales d
 
 ---
 
-### 2. **Coffee Shop Sales Analysis** ☕💰
+### 3. **Coffee Shop Sales Analysis** ☕💰
 **Directory:** `coffee_shop_sales/`
 
 Comprehensive analysis of 149,116 transactions across three coffee shop locations (Lower Manhattan, Hell's Kitchen, Astoria) from January - June 2023.
@@ -81,7 +109,7 @@ Comprehensive analysis of 149,116 transactions across three coffee shop location
 
 ---
 
-### 3. **Economic Indicators Clustering** 🌍📊
+### 4. **Economic Indicators Clustering** 🌍📊
 **Directory:** `indicadores_economicos/`
 
 Unsupervised learning project analyzing 11 economic and social indicators across 96 countries to identify country clusters and development patterns.
@@ -133,10 +161,11 @@ Unsupervised learning project analyzing 11 economic and social indicators across
 
 ## 🛠️ Technologies & Tools
 
-- **Languages:** Python 3.10+
+- **Languages:** Python 3.10+, SQL
 - **Data Processing:** Pandas, NumPy
 - **Visualization:** Matplotlib, Seaborn, Plotly
 - **Machine Learning:** Scikit-learn, TensorFlow, PyTorch
+- **Databases:** MySQL, PostgreSQL
 - **Notebooks:** Jupyter Notebooks
 - **Version Control:** Git & GitHub
 - **Data Sources:** Kaggle, Maven Analytics, Custom datasets
@@ -147,9 +176,13 @@ Unsupervised learning project analyzing 11 economic and social indicators across
 
 ```
 machine-learning-portfolio/
+├── sql_superstore/
+│   ├── README.md
+│   ├── queries/
+│   └── data/
 ├── coffee_sales/
 │   ├── README.md
-│   ├── indicadores_economicos.ipynb
+│   ├── coffee_sales.ipynb
 │   └── data/
 ├── coffee_shop_sales/
 │   ├── README.md
@@ -179,6 +212,7 @@ This portfolio demonstrates proficiency in:
 ✅ Model selection and hyperparameter tuning  
 ✅ Time series analysis and forecasting  
 ✅ Unsupervised learning and pattern discovery  
+✅ SQL database querying and optimization  
 ✅ Data visualization and storytelling  
 ✅ Technical documentation and communication  
 
