@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/queries/perdidas_subcategorias.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/queries/rankin_profit.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/queries/top_10_clientes_ventas.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/queries/ventas_acumuladas_mes.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/queries/ventas_profit_region_segmento.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/queries/ventas_totales_por_categoria.sql" dialect="SQLite" />
+  </component>
+</project>
