@@ -1,0 +1,36 @@
+{
+  "name": "Superstore Theme",
+  "dataColors": [
+    "#cc5333",
+    "#a84a8f",
+    "#7b3fa6",
+    "#23074d",
+    "#e8845e",
+    "#6b2d8b",
+    "#d4694a",
+    "#4a1a6e"
+  ],
+  "background": "#1a0a2e",
+  "foreground": "#f0ece8",
+  "tableAccent": "#cc5333",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{"color": {"solid": {"color": "#1a0a2e"}}}],
+        "fontColor": [{"color": {"solid": {"color": "#f0ece8"}}}],
+        "outspacePane": [{"backgroundColor": {"solid": {"color": "#23074d"}}}]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [{"color": {"solid": {"color": "#cc5333"}}}],
+        "label": [{"color": {"solid": {"color": "#f0ece8"}}}]
+      }
+    },
+    "title": {
+      "*": {
+        "fontColor": [{"color": {"solid": {"color": "#"}}}]
+      }
+    }
+  }
+}

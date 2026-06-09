@@ -6,7 +6,7 @@ def load_data():
     print("Pandas version", pd.__version__)
     # importamos los datos
     print("Importando datos...")
-    df=pd.read_csv("../data/Sample-Superstore.csv", encoding="latin1")
+    df=pd.read_csv(r"sql-superstore\data\Sample-Superstore.csv", encoding="latin1")
     print("Datos importados con exito")
     return df
 
