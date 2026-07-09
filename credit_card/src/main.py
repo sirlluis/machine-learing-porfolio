@@ -1,5 +1,5 @@
 # configuración
-from config import DATA_PATH
+from config import DATA_PATH, FIGURES_PATH
 
 # datos
 from data_loader import load_data
@@ -20,6 +20,12 @@ from train import (
 
 # evaluación
 from evaluation import evaluate_model
+
+# plotting
+from plot_metrics import plot_confusion_matrix
+
+# export plots
+from export import save_plot
 
 def main():
     # carga de datos
@@ -56,6 +62,15 @@ def main():
         X_test,
         y_test
     )
+    
+    # plot some metrics
+    fig=plot_confusion_matrix(
+        results["confusion_matrix"],
+        labels=model.classes_
+    )
+    #saving plots
+    save_plot(fig, FIGURES_PATH/"confusion_matrix.png")
+
 
     print("\nClassification Report\n")
     print(results["classification_report"])

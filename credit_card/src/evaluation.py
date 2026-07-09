@@ -7,9 +7,17 @@ from sklearn.metrics import (
     confusion_matrix,
     ConfusionMatrixDisplay
 )
-    
-def evaluate_model(model, X_test, y_test):
+
+def model_predictions(X_test, model):
+    """
+        Function to get predictions from the model
+    """
     y_pred=model.predict(X_test)
+    return y_pred
+
+def evaluate_model(model, X_test, y_test):
+    
+    y_pred=model_predictions(X_test, model)
     
     results={
         "accuracy": accuracy_score(y_test, y_pred),

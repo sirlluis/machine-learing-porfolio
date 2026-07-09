@@ -10,6 +10,7 @@ RAW_DATA_DIR=DATA_DIR/"raw"
 PROCESSED_DATA_DIR=DATA_DIR/"processed"
 MODELS_DIR=ROOT_DIR/"models"
 REPORTS_DIR=ROOT_DIR/"reports"
+FIGURES_PATH=REPORTS_DIR/"figures"
 
 # ruta a los datos RAW
 DATA_PATH=RAW_DATA_DIR/"Credit_Card_Applications.csv"
