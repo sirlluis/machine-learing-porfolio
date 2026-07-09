@@ -149,27 +149,13 @@ cd credit-card-approval
 
 ### 2. Create a virtual environment (recommended)
 
-**Windows**
-
+**Anaconda**
 ```bash
-python -m venv .venv
-.venv\Scripts\activate
+conda env create -f environment.yml
+conda activate machine_learning_env
 ```
 
-**macOS / Linux**
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 3. Install the dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the project
+### 3. Run the project
 
 ```bash
 python src/main.py
