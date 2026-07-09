@@ -1,8 +1,8 @@
-# Exportar datos
-import os
-from config import data_processed_path
+from pathlib import Path
 
-def export_data(df, path=data_processed_path/"Credit_Card_App_PROCESSED.csv"):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    df.to_csv(path, index=False)
-    print(f"Datos exportados a {path}")
+def ensure_dir(path):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+
+def save_plot(fig, save_path):
+    ensure_dir(save_path)
+    fig.savefig(save_path, dpi=300, bbox_inches="tight")
