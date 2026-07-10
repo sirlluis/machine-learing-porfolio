@@ -1,62 +1,63 @@
-# configuración
+# Configuration
 from config import DATA_PATH, FIGURES_PATH
 
-# datos
+# Data
 from data_loader import load_data
 from data_cleaning import clean_data
 from data_split import split_data
 
-# preprocesado
+# Preprocessing
 from preprocessing import build_preprocessor
 
-# modelos
+# Models
 from models import build_logistic_regression
 
-# entrenamiento
+# Training
 from train import (
     train_model,
     build_pipeline
 )
 
-# evaluación
-from evaluation import evaluate_model
+# Model evaluation
+from evaluation import evaluate_model, print_results
 
-# plotting
+# Plotting
 from plot_metrics import plot_confusion_matrix
 
-# export plots
+# Export plots
 from export import save_plot
 
+
 def main():
-    # carga de datos
+    # Loading the data
     df=load_data(DATA_PATH)
     
-    # limpieza
+    # cleaning data
     df=clean_data(df)
     
-    # entrenamiento y split
+    # train and split
     X_train, X_test, y_train, y_test=split_data(df)
     
-    # preprocesado
+    # preprocessing
     preprocessor=build_preprocessor()
     
-    # construcción del modelo
+    # building the model
     model=build_logistic_regression()
     
-    # contrucción del pipeline
+    # build the pipeline
     pipeline=build_pipeline(
         preprocessor,
         model
     )
     
-    # entrenamietno
+    # training
     pipeline=train_model(
         pipeline,
         X_train,
         y_train
     )
 
-    # evaluación
+    # evaluate the model
     results=evaluate_model(
         pipeline,
         X_test,
@@ -71,17 +72,8 @@ def main():
     #saving plots
     save_plot(fig, FIGURES_PATH/"confusion_matrix.png")
 
-
-    print("\nClassification Report\n")
-    print(results["classification_report"])
-
-    print("\nConfusion Matrix\n")
-    print(results["confusion_matrix"])
-
-    print(f"\nAccuracy : {results['accuracy']:.3f}")
-    print(f"Precision: {results['precision']:.3f}")
-    print(f"Recall   : {results['recall']:.3f}")
-    print(f"F1 Score : {results['f1_score']:.3f}")
+    # show results
+    print_results(results)
 
     
 if __name__=="__main__":

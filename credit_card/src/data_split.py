@@ -1,8 +1,3 @@
-"""
-    Funciones para seprar y preparar los datos
-    para el entrenamiento
-"""
-
 from sklearn.model_selection import train_test_split
 
 from config import (
@@ -13,7 +8,16 @@ from config import (
 
 def split_data(df):
     """
-        Función que separará los datos en entrenamiento y prueba
+        Function that splits data into train and test
+
+        Parameters
+        ----------
+        df : pandas.DataFrame
+        
+        Returns
+        -------
+        splittinglist, length=2 * len(arrays)
+            List containing train-test split of inputs.
     """
     X=df.drop(columns=TARGET)
     y=df[TARGET]
