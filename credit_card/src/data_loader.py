@@ -3,17 +3,15 @@ import pandas as pd
 
 def load_data(path):
     """
-    Función que carga la base de datos
-    desde un archivo CSV
-    ------
-    Parámetros:
+        Load dataframe from the path
 
-    path = Path
-        ruta del conjunto de datos
-    ------
-    Return:
-
-    pd.DataFrame 
+        Parameters
+        ----------
+        str : path
+            Recieve a string with the path to the dataframe 
+        Returns
+        -------
+        df: pandas.DataFrame
     """
 
     df=pd.read_csv(path)
