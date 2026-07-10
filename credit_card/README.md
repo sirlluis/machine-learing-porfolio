@@ -134,9 +134,7 @@ The high recall indicates that the model successfully identifies most approved c
 
 ### Confusion Matrix
 
-> *Include the confusion matrix figure here.*
-
-![Confusion Matrix](reports/confusion_matrix.png)
+![Confusion Matrix](reports/figures/confusion_matrix.png)
 
 ## How to Run
 
