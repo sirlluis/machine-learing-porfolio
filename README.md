@@ -1,58 +1,55 @@
-# 👋 Hi, I'm Luis Gerardo Ramírez Archundia
+# Luis Gerardo Ramírez Archundia
 
-**Physics Graduate** | **Machine Learning Enthusiast** | **Data Science Portfolio**
+### Machine Learning | Data Scientist | Physicist
 
-I am a **Physics graduate** from UAEMex with experience in **Quantum Chromodynamics (QCD)** and a strong interest in **Machine Learning and Data Science**.  
-My projects combine knowledge of physics, mathematics, and programming to solve real-world problems through data-driven approaches.  
+I build end-to-end machine learning solutions that transform data into actionable insights. My background in Physics has provided me with strong analytical and mathematical foundations, which I apply to predictive modeling, data analysis, and solving real-world problems.
 
-My goal is to apply my skills in **data analysis, statistical modeling, and machine learning** to innovative projects in the tech and scientific industries.
+📍 Mexico
 
+- [[Email]](mailto:luisgra@tuta.io)
+- [[LinkedIn]](https://www.linkedin.com/in/lgra1525/)
+- [[Download CV]](https://drive.google.com/drive/folders/1AIbQg8gwomMVR9K51W4I6GDDOOkpD4Rs?usp=sharing)
 ---
+## About Me
 
-## 🛠️ Tech Stack
+I'm a Physics graduate with a strong interest in Machine Learning and Data Science. I enjoy building end-to-end machine learning projects, from data exploration and preprocessing to model training, evaluation, and optimization.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37726?style=for-the-badge&logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-1.20%2B-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit--learn](https://img.shields.io/badge/Scikit--learn-1.0%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-1.9%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+My goal is to develop clean, reproducible, and practical solutions that transform data into meaningful insights while continuously expanding my skills in machine learning and software development.
 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.0%2B-000000?style=for-the-badge&logo=data:image/svg%2bxml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ctext%20y=%2280%22%20font-size=%2290%22%20fill=%22white%22%3E▄%3C/text%3E%3C/svg%3E&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.12%2B-4C72B0?style=for-the-badge)
-![Plotly](https://img.shields.io/badge/Plotly-5.0%2B-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+## Skills
 
-![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13%2B-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Advanced-CC2927?style=for-the-badge&logo=sqlite&logoColor=white)
+### Programming Languages
+- Python
+- SQL
+- C++
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS%20Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+### Data Analysis
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
----
+### Machine Learning
+- Scikit-learn
+- TensorFlow
+- Model Evaluation
+- Feature Engineering
+- Hyperparameter Tuning
 
-# 📂 Machine Learning & Data Science Portfolio
+### Tools
+- Git
+- GitHub
+- Jupyter Notebook
+- VS Code
+- Power BI
 
-This repository contains a comprehensive collection of projects showcasing my abilities in:  
+--- 
+## Featured Projects
 
-- 📊 **Exploratory Data Analysis (EDA)** - Understanding data patterns and distributions
-- 📈 **Time Series Forecasting** - ARIMA, LSTM, and machine learning models for temporal data
-- 🎯 **Supervised Learning** - Regression and classification models  
-- 🔍 **Unsupervised Learning** - Clustering (K-Means, DBSCAN, Agglomerative) and dimensionality reduction (PCA)
-- 🧠 **Deep Learning** - Neural networks and computer vision applications
-- ⚛️ **Physics + ML** - Applying machine learning techniques to physics-related problems
-- 🗄️ **SQL & Database Analysis** - Data extraction, transformation, and insights from relational databases
-
-Each project is documented with its own `README.md`, explaining the problem, methodology, and results.
-
----
-
-## 🚀 Featured Projects
-
-### 1. **SQL Superstore Analysis** 🗄️📊
+### 1. **SQL Superstore Analysis**
 **Directory:** `sql_superstore/`
+
+[Link to the project](https://github.com/sirlluis/machine-learing-porfolio/tree/main/sql-superstore)
 
 Database analysis project showcasing SQL proficiency with comprehensive queries on a retail superstore dataset containing multiple years of sales data.
 
@@ -78,8 +75,10 @@ Database analysis project showcasing SQL proficiency with comprehensive queries 
 
 ---
 
-### 2. **Coffee Sales Prediction** ☕📊
+### 2. **Coffee Sales Prediction**
 **Directory:** `coffee_sales/`
+
+[Link to the project](https://github.com/sirlluis/machine-learing-porfolio/tree/main/coffee_sales)
 
 A time series forecasting project analyzing daily coffee vending machine sales data spanning March 2024 - March 2025.
 
@@ -102,8 +101,10 @@ A time series forecasting project analyzing daily coffee vending machine sales d
 
 ---
 
-### 3. **Coffee Shop Sales Analysis** ☕💰
+### 3. **Coffee Shop Sales Analysis**
 **Directory:** `coffee_shop_sales/`
+
+[Link to the project](https://github.com/sirlluis/machine-learing-porfolio/tree/main/coffee_shop_sales)
 
 Comprehensive analysis of 149,116 transactions across three coffee shop locations (Lower Manhattan, Hell's Kitchen, Astoria) from January - June 2023.
 
@@ -137,6 +138,8 @@ Comprehensive analysis of 149,116 transactions across three coffee shop location
 
 ### 4. **Economic Indicators Clustering** 🌍📊
 **Directory:** `indicadores_economicos/`
+
+[Link to the directory](https://github.com/sirlluis/machine-learing-porfolio/tree/main/indicadores_economicos)
 
 Unsupervised learning project analyzing 11 economic and social indicators across 96 countries to identify country clusters and development patterns.
 
@@ -185,65 +188,11 @@ Unsupervised learning project analyzing 11 economic and social indicators across
 
 ---
 
-## 📦 Project Structure
-
-```
-machine-learning-portfolio/
-├── sql_superstore/
-│   ├── README.md
-│   ├── queries/
-│   └── data/
-├── coffee_sales/
-│   ├── README.md
-│   ├── coffee_sales.ipynb
-│   └── data/
-├── coffee_shop_sales/
-│   ├── README.md
-│   ├── coffee_shop_sales.ipynb
-│   └── assets/
-├── indicadores_economicos/
-│   ├── README.md
-│   ├── indicadores_economicos.ipynb
-│   ├── Pais.csv
-│   └── indicadores_economicos.html
-├── car_price_prediction/
-├── diabetes_detection/
-├── fraud_detection/
-├── supermarket_sales/
-└── README.md
-```
-
----
-
-## 🎓 Competencies & Skills
-
-✅ End-to-end ML project lifecycle  
-✅ Data preprocessing and feature engineering  
-✅ Statistical analysis and hypothesis testing  
-✅ Model selection and hyperparameter tuning  
-✅ Time series analysis and forecasting  
-✅ Unsupervised learning and pattern discovery  
-✅ SQL database querying and optimization  
-✅ Data visualization and storytelling  
-✅ Technical documentation and communication  
-✅ Physics + ML applications  
-
----
-
-## 📬 Connect & Contact
-
-[![Email](https://img.shields.io/badge/Email-luisgra%40tuta.io-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisgra@tuta.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-lgra1525-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lgra1525/)
-[![GitHub](https://img.shields.io/badge/GitHub-sirlluis-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sirlluis)
-[![Kaggle](https://img.shields.io/badge/Kaggle-luisgerardoram-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/luisgerardoram)
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Last Updated:** June 2026  
+**Last Updated:** July 2026  
 **Status:** 🚀 Actively maintained and expanding with new projects
